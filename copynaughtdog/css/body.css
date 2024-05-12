@@ -82,3 +82,19 @@ body{
     z-index: 1; 
     bottom: -40px;
   }
+  .Botonlastpart{
+    background-color: red;
+    color: white;
+    border-color: red;
+    padding: 1%;
+  }
+  .centerbotton{
+display: flex;
+justify-content: center;
+margin: 1%;
+  }
+
+  .Botonlastpart:hover{
+    background-color: rgb(161, 21, 21);
+     border-color: rgb(161, 21, 21);
+  }
