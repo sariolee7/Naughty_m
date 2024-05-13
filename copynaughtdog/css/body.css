@@ -98,3 +98,14 @@ margin: 1%;
     background-color: rgb(161, 21, 21);
      border-color: rgb(161, 21, 21);
   }
+
+
+  .carousel-inner{
+    border-style: solid;
+
+  }
+
+  .imgcarrusel{
+width: 43%;
+
+  }
