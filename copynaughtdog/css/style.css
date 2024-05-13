@@ -72,7 +72,7 @@ justify-content: center;
   background-color: red;
     display: flex;
     align-self: center;
-    justify-content: center;
+    justify-content:center;
     width: 100%;
   }
 .permiso .redes2{
@@ -86,5 +86,16 @@ justify-content: center;
 .politicas{
   margin: 0% 10%;
 }
+h6{
+  padding: 1%;
+ background-color: rgb(37, 37, 37);
+  color: white;
+}
+.cambiocolor1:hover{
+  color: red;
+}
 
+.redes1:hover{
 
+  color: rgb(182, 180, 180);
+}
