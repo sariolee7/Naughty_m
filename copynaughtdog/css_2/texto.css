@@ -1,0 +1,18 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-style: normal; 
+  }
+  .grande {
+    font-size: 5vw; 
+    justify-content: space-between;
+  }
+  .mediano{
+    font-size: 2vw;
+    line-height: 1.3;
+  }
+  .txt1{
+    width: 75%;
+  }
