@@ -19,13 +19,13 @@
     .lastnews .info1 .part3{width: 100%;}
     .mobile-menu {
       display: none; /* Por defecto, oculta el icono de menú en pantallas grandes */
-    } 
+    }
 }
 
 /* Estilos para moviles */
   @media (max-width: 480px) {
 
-    .wrapper .cabeza {width: 100%; height: 35vw; flex-direction: column; align-items: center;}
+    .wrapper .cabeza {width: 100%; height: 33vw; flex-direction: column; align-items: center;}
     .wrapper .cabeza .logo{width: 70% ; align-items: center;}
     .wrapper .cabeza .ul1{font-size:3vw; align-items: center; width: 100%; margin: 0;}
 
@@ -50,10 +50,10 @@
 
     .partback footer{width: 100%; margin: 0; flex-direction: column;}
     .partback .politicas{text-align: center;margin-top: 10px;}
-  }
- .mobile-menu {display: none; width: 10%; /* Por defecto, oculta el icono de menú en pantallas grandes */
+    .mobile-menu {display: none; width: 10%; /* Por defecto, oculta el icono de menú en pantallas grandes */
+    }
   } 
-  
+
   @media only screen and (max-width: 600px) {
     /* Estilos para dispositivos móviles */
     .ul1.nav {display: none;}
@@ -79,4 +79,8 @@
     .lastnews .info1 .part3{width: 100%;}
     .lastnews .info2{width: 40%;}
     .lastnews .imagencom{width: 100%}
+    .text-g{width: 65%;}
+  }
+  @media (min-width: 1024px) {
+    .text-g{width: 70%;}
   }
