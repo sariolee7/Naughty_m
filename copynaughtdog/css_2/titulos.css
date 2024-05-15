@@ -3,3 +3,16 @@ h2.heading {
     line-height: .8;
     border-bottom: unset;
 }
+h2.heading {
+    padding-bottom: .7rem;
+    margin-bottom: 1.5rem;
+}
+h2{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+.titulo_txt{
+    flex-direction: column;  
+}
