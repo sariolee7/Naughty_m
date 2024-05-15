@@ -122,10 +122,12 @@ h6{
 }
 
 .titulo1{
- 
+  
   margin-left: 10vw;
 }
 .titulo2{
+  -webkit-text-fill-color: rgba(255, 255, 255, 0); 
+  -webkit-text-stroke-width: 1px;
   margin-top: -2%;
   margin-left: 12vw;
 }
