@@ -8,7 +8,7 @@
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 1.2vw;
+  font-size: 1vw;
 }
   li {
     float:inline-start;
@@ -29,7 +29,6 @@
     text-align: center;
     padding: 1cap 4cap;
     text-decoration: none;
-    color: rgb(255, 255, 255);
     background-color: rgb(93, 93, 93);
   }
   
