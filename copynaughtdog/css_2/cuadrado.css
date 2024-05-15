@@ -1,0 +1,15 @@
+.imagen-container {
+    position: relative; /* Para que el cuadrado gris esté contenido dentro del contenedor de la imagen */
+    display: inline-block; /* Para que el contenedor de la imagen se ajuste al tamaño de la imagen */
+  }
+
+.cuadrado-gris {
+    position: absolute; /* Posición absoluta para que se quede quieto con la imagen */
+    background-color: gray;
+    width: 90%; /* ajusta el ancho según tu preferencia */
+    height: 35%; /* ajusta la altura según tu preferencia */
+    left: -2%; /* ajusta la posición izquierda */
+    top: 35%; /* ajusta la posición superior */
+    transform: translateY(-100%);
+    z-index: -1; /* Asegura que el cuadrado gris esté detrás de la imagen */
+  }
