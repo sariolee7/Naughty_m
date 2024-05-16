@@ -2,51 +2,13 @@
   position: relative; /* Para que los cuadrados grises estén posicionados relativamente a este contenedor */
   display: inline-block;
 }
-
 .cuadrado-gris {
   position: absolute; /* Posición absoluta para que se quede quieto con la imagen */
   background-color: gray;
   width: 90%; /* Ajusta el ancho según tu preferencia */
   height: 30%; /* Ajusta la altura según tu preferencia */
   z-index: -1; /* Asegura que los cuadrados grises estén detrás de la imagen */
+  left: -2%;
 }
 
-.cuadrado-gris_2 {
-  top: 35%; /* Ajusta la posición superior */
-  left: 2%; /* Ajusta la posición izquierda */
-  background-color: gray;
-  width: 25%; /* Ajusta el ancho según tu preferencia */
-  height: 12%; /* Ajusta la altura según tu preferencia */
-}
 
-.cuadrado-gris_3 {
-  top: 35%; /* Ajusta la posición superior */
-  right: 15%; /* Ajusta la posición derecha */
-  background-color: gray;
-  width: 25%; /* Ajusta el ancho según tu preferencia */
-  height: 12%; /* Ajusta la altura según tu preferencia */
-}
-
-.cuadrado-gris_4 {
-  top: 111.5%; /* Ajusta la posición superior */
-  right: 11%; /* Ajusta la posición derecha */
-  background-color: gray;
-  width: 25%; /* Ajusta el ancho según tu preferencia */
-  height: 12%; /* Ajusta la altura según tu preferencia */
-}
-
-.cuadrado-gris_5 {
-  top: 139%; /* Ajusta la posición superior */
-  left: 11%; /* Ajusta la posición izquierda */
-  background-color: gray;
-  width: 25%; /* Ajusta el ancho según tu preferencia */
-  height: 12%; /* Ajusta la altura según tu preferencia */
-}
-
-.cuadrado-gris_6 {
-  top: 139%; /* Ajusta la posición superior */
-  right: 11%; /* Ajusta la posición derecha */
-  background-color: gray;
-  width: 25%; /* Ajusta el ancho según tu preferencia */
-  height: 12%; /* Ajusta la altura según tu preferencia */
-}
