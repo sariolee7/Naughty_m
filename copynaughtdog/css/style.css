@@ -29,12 +29,14 @@ justify-content:center;
   width: 50%;
   padding: 2%;
   position: relative;
+  margin: 2vw;
 }
 .info2{
   display: flex;
   flex-direction: column;
   width: 30%;
   padding: 2%;
+  margin: 2vw;
 }
 .part3{
   flex-direction: row;
