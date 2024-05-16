@@ -13,3 +13,13 @@
     transform: translateY(-100%);
     z-index: -1; /* Asegura que el cuadrado gris esté detrás de la imagen */
   }
+
+  .cuadrado-gris .imagen-container :hover{
+   background-color: red;
+   width: 90%; /* ajusta el ancho según tu preferencia */
+   height: 35%; /* ajusta la altura según tu preferencia */
+   left: 15%;
+   top: 35%; /* ajusta la posición superior */
+   transform: translateY(-100%);
+   z-index: -1; /* Asegura que el cuadrado gris esté detrás de la imagen */
+  }
