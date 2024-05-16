@@ -24,9 +24,10 @@
     .wrapper .contenedor .titulo { font-size: 15px; bottom: -4px;}
     .contenedor { height: 21rem; display: flex; }
     .container { height: 15rem; }
-    .wrapper .contenedor .imgfle {right: 9rem; }
+    .wrapper .contenedor .imgfle {right: 6rem; }
     .wrapper .contenedor::after {height:4rem; }
     .wrapper .contenedor::before {height:4rem;}
+    .wrapper .contenedor .imgfle:hover { height: 20vw; }
   }
 /* Estilos para tabletas */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -48,4 +49,15 @@
   .wrapper .contenedor::after {height:7rem; bottom: -5vw;}
   .wrapper .contenedor::before {height:7rem;}
   .wrapper .contenedor .imgfle:hover { height: 11vw; bottom: -5vw; }
+}
+@media (min-width: 1024px) {
+  .carousel-item { height: 45rem; }
+  .titulo_p { font-size: 1vw; width: 50%; line-height: 1.5vw;}
+  .wrapper .contenedor .titulo { font-size: 4vw; bottom: 10px;}
+  .contenedor { height: 45.5rem; display: flex; }
+  .wrapper .contenedor .imgfle {right: 38vw; bottom: -2vw; }
+  .wrapper .contenedor::after {height:9.8rem; bottom: -5vw;}
+  .wrapper .contenedor::before {height:13rem;}
+  .wrapper .contenedor .imgfle:hover { height: 11vw; bottom: -5vw; }
+  .wrapper .contenedor::before {height:9.8rem; bottom: -5vw;}
 }
