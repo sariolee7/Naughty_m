@@ -6,19 +6,20 @@
     align-items: center;
     text-align: center;
     justify-content: space-between;
-
     height: 90px;
     position:fixed;
     width: 100%;
     z-index: 3;
   }
-.container{
+.contenedor{
     background-image: url(/IMG/fondito1.png) ;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-style: solid;
-    
+    border-style: solid; 
+    margin: 0;  
+    padding: 0;
+    width: 100%;
 }
 .lastnews{
 display: flex;
